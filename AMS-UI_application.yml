@@ -25,10 +25,7 @@ spring:
     name: employee
 
 
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
+
     
     
 zuul:
