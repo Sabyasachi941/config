@@ -31,19 +31,19 @@ spring:
 zuul:
   routes:
     employee.path : /manager
-    employee.service_id : http://localhost:9091
+    employee.service_id : manager
     
     getApprovalList.path : /getApprovalList
-    getApprovalList.service-id : http://localhost:9091
+    getApprovalList.service-id :manager
     
     ams.path : /js/ams1.js
-    ams.service-id : http://localhost:9091
+    ams.service-id : manager
     
     getPendingList.path : /getPendingList
-    getPendingList.service-id : http://localhost:9091
+    getPendingList.service-id : manager
     
     Approved.path : /Approved
-    Approved.service-id : http://localhost:9091
+    Approved.service-id : manager
     
 
 
