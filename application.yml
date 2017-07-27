@@ -45,19 +45,8 @@ zuul:
     Approved.service-id : managers
     
     
-
- security:
-    oauth2:
-      client:
-        clientId: 0oab1wn07kwBdEJt00h7
-        clientSecret: IsEMnCIMN3-fRqb5VKwOo1eVFdYmP6J4Vx0lI_OR
-        accessTokenUri: https://dev-255264.oktapreview.com/oauth2/ausb244zmpip4VuKf0h7/v1/token
-        userAuthorizationUri: https://dev-255264.oktapreview.com/oauth2/ausb244zmpip4VuKf0h7/v1/authorize
-        clientAuthenticationScheme: form
-        scope: openid profile email
-        
-      resource:
-        userInfoUri: https://dev-255264.oktapreview.com/oauth2/ausb244zmpip4VuKf0h7/v1/userinfo
-        preferTokenInfo: false 
+management:
+  security:
+    enabled: false
 
     
