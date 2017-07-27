@@ -61,4 +61,4 @@ security:
       
     resource:
       userInfoUri: https://dev-255264.oktapreview.com/oauth2/ausb244zmpip4VuKf0h7/v1/userinfo
-      preferTokenInfo: false     
+      preferTokenInfo: false    
