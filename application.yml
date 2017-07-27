@@ -57,7 +57,7 @@ security:
       accessTokenUri: https://dev-255264.oktapreview.com/oauth2/ausb244zmpip4VuKf0h7/v1/token
       userAuthorizationUri: https://dev-255264.oktapreview.com/oauth2/ausb244zmpip4VuKf0h7/v1/authorize
       clientAuthenticationScheme: form
-      scope: openid profile email
+      
       
     resource:
       userInfoUri: https://dev-255264.oktapreview.com/oauth2/ausb244zmpip4VuKf0h7/v1/userinfo
