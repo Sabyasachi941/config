@@ -22,7 +22,7 @@ zuul:
     getApprovalList.service-id : Manager
     
     ams.path : /js/ams1.js
-    ams.service-id : managers
+    ams.service-id : Manager
     
     getPendingList.path : /getPendingList
     getPendingList.service-id : Manager
