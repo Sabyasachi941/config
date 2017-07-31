@@ -1,6 +1,11 @@
 server:
   port: 9090
-
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: https://eureka-0ef538d0-a4dc-4d88-9102-f510666c8771.cfapps.io
+      
 spring:
   datasource:
     url: ${cloud.services.ams-ui.connection.jdbcUrl:jdbc:mysql://us-cdbr-iron-east-03.cleardb.net/ad_a3ef5be9a5a9791?user=bdebe42a825a2c&password=e9f2cac767354a5}
