@@ -1,12 +1,5 @@
 server:
   port: 9090
-  
-eureka:
-  client:
-    service-url:
-      defaultZone: https://eureka-0ef538d0-a4dc-4d88-9102-f510666c8771.cfapps.io
-
-
 
 spring:
   datasource:
