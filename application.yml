@@ -4,7 +4,7 @@ server:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: https://eureka-0ef538d0-a4dc-4d88-9102-f510666c8771.cfapps.io
 
 
 
@@ -14,11 +14,6 @@ spring:
   application:
     name: employee
 
-  data:
-    mongodb:
-      database: Attendance
-      host: localhost
-      port: 27017
 
   jpa:
     properties:
@@ -30,19 +25,19 @@ spring:
 zuul:
   routes:
     employee.path : /manager
-    employee.service_id : managers
+    employee.service_id : Manager
     
     getApprovalList.path : /getApprovalList
-    getApprovalList.service-id : managers
+    getApprovalList.service-id : Manager
     
     ams.path : /js/ams1.js
     ams.service-id : managers
     
     getPendingList.path : /getPendingList
-    getPendingList.service-id : managers
+    getPendingList.service-id : Manager
     
     Approved.path : /Approved
-    Approved.service-id : managers
+    Approved.service-id : Manager
     
     
 management:
